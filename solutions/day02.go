@@ -53,12 +53,11 @@ func Day02solution1() {
 			counter++
 		}
 	}
-	log.Printf("Day 2 Part1 Result: %v", counter)
+	log.Printf("Day 02 Part1 Result: %v", counter)
 }
 
 // Day02solution2 first part
 func Day02solution2() {
-	log.Println("Day 2 Solution 2")
 	file, err := os.Open("puzzles/day02.txt")
 	if err != nil {
 		log.Fatalf("Error opening file %v", err)
@@ -76,5 +75,5 @@ func Day02solution2() {
 			counter++
 		}
 	}
-	log.Printf("Day 2 Part2 Result: %v", counter)
+	log.Printf("Day 02 Part2 Result: %v", counter)
 }

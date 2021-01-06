@@ -54,7 +54,7 @@ func day03countTrees(val [][31]bool) {
 			position -= 31
 		}
 	}
-	log.Printf("Day 3 Solution 1 %v", numberOfTrees)
+	log.Printf("Day 03 Solution 1 %v", numberOfTrees)
 }
 
 func day03countMultipleSlopes(val [][31]bool) {
@@ -81,7 +81,7 @@ func day03countMultipleSlopes(val [][31]bool) {
 		}
 		result *= numberOfTrees
 	}
-	log.Printf("Day 3 Solution 2 %v", result)
+	log.Printf("Day 03 Solution 2 %v", result)
 }
 
 func day03DumpRow(val [31]bool, position int) string {

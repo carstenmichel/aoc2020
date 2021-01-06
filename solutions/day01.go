@@ -29,7 +29,7 @@ func Day01solution1() {
 	for i, v := range numbers {
 		for _, w := range numbers[i:] {
 			if v+w == 2020 {
-				log.Printf("Day 1 Solution 1: %v + %v is 2020, multiplies to %v", v, w, (v * w))
+				log.Printf("Day 01 Solution 1: %v + %v is 2020, multiplies to %v", v, w, (v * w))
 			}
 		}
 	}
@@ -57,7 +57,7 @@ func Day01solution2() {
 		for j, w := range numbers[i:] {
 			for _, x := range numbers[(i + j):] {
 				if v+w+x == 2020 {
-					log.Printf("Day 1 Solution 2: %v + %v + %v is 2020, multiplies to %v", v, w, x, (v * w * x))
+					log.Printf("Day 01 Solution 2: %v + %v + %v is 2020, multiplies to %v", v, w, x, (v * w * x))
 				}
 			}
 		}

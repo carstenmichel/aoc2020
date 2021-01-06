@@ -56,7 +56,7 @@ func day04CountValidPassports(val []map[string]string) {
 			}
 		}
 	}
-	log.Printf("Day 4 Solution 1: Number of valid passports %v", validPassports)
+	log.Printf("Day 04 Solution 1: Number of valid passports %v", validPassports)
 }
 
 func day04CountValidPassportsWithCheck(val []map[string]string) {
@@ -66,7 +66,7 @@ func day04CountValidPassportsWithCheck(val []map[string]string) {
 			validPassports++
 		}
 	}
-	log.Printf("Day 4 Solution 2: Number of valid checked passports %v", validPassports)
+	log.Printf("Day 04 Solution 2: Number of valid checked passports %v", validPassports)
 }
 
 var r *regexp.Regexp = regexp.MustCompile(`^#[0-9a-f]{6}$`)
