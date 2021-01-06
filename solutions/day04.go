@@ -132,24 +132,20 @@ func day04syntaxcheck(val map[string]string) bool {
 	// hcl (Hair Color) - a # followed by exactly six characters 0-9 or a-f.
 	hcl := val["hcl"]
 	if !r.Match([]byte(hcl)) {
-
 		return false
 	}
 
 	// ecl (Eye Color) - exactly one of: amb blu brn gry grn hzl oth.
 	ecl := val["ecl"]
 	if !checkEyeColor(ecl) {
-
 		return false
 	}
 
 	// pid (Passport ID) - a nine-digit number, including leading zeroes
 	pid := val["pid"]
 	if !id.Match([]byte(pid)) {
-		log.Printf("invalid pid %v", pid)
 		return false
 	}
-
 	return true
 }
 func checkEyeColor(val string) bool {

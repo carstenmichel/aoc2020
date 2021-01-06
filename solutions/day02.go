@@ -58,6 +58,7 @@ func Day02solution1() {
 
 // Day02solution2 first part
 func Day02solution2() {
+	log.Println("Day 2 Solution 2")
 	file, err := os.Open("puzzles/day02.txt")
 	if err != nil {
 		log.Fatalf("Error opening file %v", err)
