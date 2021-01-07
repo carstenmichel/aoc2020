@@ -16,4 +16,6 @@ func main() {
 	solutions.Day03solution1()
 	solutions.Day04solution1()
 	solutions.Day05solution1()
+	solutions.Day06solution1()
+	solutions.Day06solution2()
 }

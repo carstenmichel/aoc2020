@@ -25,11 +25,11 @@ func Day05solution1() {
 		highest = day05max(highest, seat)
 		allSeats = append(allSeats, seat)
 	}
-	log.Printf("Day 05 Solution 01: %v", highest)
+	log.Printf("Day 05 Solution 1: %v", highest)
 	sort.Ints(allSeats)
 	for i := 0; i < len(allSeats)-1; i++ {
 		if allSeats[i]+1 != allSeats[i+1] {
-			log.Printf("Day 05 Solution 02: %v", allSeats[i]+1)
+			log.Printf("Day 05 Solution 2: %v", allSeats[i]+1)
 		}
 	}
 }

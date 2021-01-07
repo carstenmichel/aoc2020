@@ -53,7 +53,7 @@ func Day02solution1() {
 			counter++
 		}
 	}
-	log.Printf("Day 02 Part1 Result: %v", counter)
+	log.Printf("Day 02 Solution 1 Result: %v", counter)
 }
 
 // Day02solution2 first part
@@ -75,5 +75,5 @@ func Day02solution2() {
 			counter++
 		}
 	}
-	log.Printf("Day 02 Part2 Result: %v", counter)
+	log.Printf("Day 02 Solution 2 Result: %v", counter)
 }
